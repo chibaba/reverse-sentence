@@ -11,5 +11,8 @@
     "url": "https://github.com/chibaba"
   },
   "author": "God'swill",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "2.2.1"
+  }
 }

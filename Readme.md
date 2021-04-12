@@ -1,3 +1,33 @@
-## Node Module package for reversing a word || sentence
+# reverse-sentense
 
-_ WE ARE CREATING OUR FIRST NPM PACKAGE_
+
+Reverse the word of a sentence
+
+## How to Install
+```sh
+npm install @chibaba/reverse-sentence.
+```
+
+## API
+
+```js
+require("reverse-sentence") => Function
+reverse(sentence) => String
+```
+
+## Example
+```js
+
+const reverseSentence = require("reverse-sentence");
+
+const sentence = "Hello Beth!";
+
+const reversed = reversedSentence(sentence);
+
+console.log(reversed) // Beth! Hello
+
+``` 
+
+## License
+
+MIT
